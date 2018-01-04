@@ -1,0 +1,25 @@
+{
+  "name": "billy-shakes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwford/billy-shakes.git"
+  },
+  "author": "Jonathan Ford",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jwford/billy-shakes/issues"
+  },
+  "homepage": "https://github.com/jwford/billy-shakes#readme",
+  "dependencies": {
+    "common-tags": "^1.6.0",
+    "discord-akairo": "^7.5.1",
+    "discord.js": "^11.2.1",
+    "ms": "^2.1.1"
+  }
+}
