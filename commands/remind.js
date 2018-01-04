@@ -36,7 +36,7 @@ module.exports = class RemindCommand extends Command {
     \`${ms(args.time, {long: true})}\`!`);
 
     setTimeout(() => {
-      msg.channel.send(`${msg.author} I hast a reminder for you! \`${args.reminder}\`!`);
+      msg.channel.send(`${msg.author}, I hast a reminder for you! \`${args.reminder}\`!`);
     }, args.time);
 
     return;
